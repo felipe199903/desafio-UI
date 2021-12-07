@@ -141,3 +141,140 @@ body{
     margin-right: auto;
     margin-top: 6rem;
 }
+@media (max-width: 801px) {
+    .opções{
+        background-color: #1A2036;
+        height: 16rem;
+        width: 5rem;
+        display: grid;
+        position: absolute;
+        align-items: center;
+        left: 1%;
+        top: 5%;
+        grid-template-rows: 4rem 4rem 4rem 4rem;
+        padding: 1rem;
+        border-radius: 20px;
+        padding-top: 4rem;
+        padding-bottom: 8rem;
+        margin-bottom: 1rem;
+    }
+    .position-parte2{
+        display: grid;
+        grid-template-columns: 8rem 8rem 8rem 8rem;
+        grid-template-rows: 11rem 11rem;
+        row-gap: 1.5rem;
+    }
+    .card-vazio{
+        width: 7rem;
+        height: 10.25rem;
+        background-color: #2E3650;
+        border-radius: 15px;
+    }
+    .card-completo{
+        width: 7rem;
+        height: 10.25rem;
+        background-color: #1A2036;
+        border-radius: 15px;
+        
+    }
+    .position-parte1{
+        display: inline-grid;
+        width: 100%;
+        grid-template-columns: 10rem 10rem;
+        gap: 17.25rem;
+        align-items: center;
+        left: 20%;
+        position: relative;
+        top: 11%;
+    }
+ }
+ @media (max-width: 1024px) and (min-width: 801px){
+    .opções{
+        background-color: #1A2036;
+        height: 17rem;
+        width: 5rem;
+        display: grid;
+        position: absolute;
+        align-items: center;
+        left: 8%;
+        top: 15%;
+        grid-template-rows: 4rem 4rem 4rem 4rem;
+        padding: 1rem;
+        border-radius: 20px;
+        padding-top: 4rem;
+        padding-bottom: 8rem;
+        margin-bottom: 1rem;
+    }
+ }
+ @media (max-width: 1366px) and (min-width: 1361px){
+    .opções{
+        background-color: #1A2036;
+        height: 17rem;
+        width: 5rem;
+        display: grid;
+        position: absolute;
+        align-items: center;
+        left: 22%;
+        top: 32%;
+        grid-template-rows: 4rem 4rem 4rem 4rem;
+        padding: 1rem;
+        border-radius: 20px;
+        padding-top: 4rem;
+        padding-bottom: 8rem;
+        margin-bottom: 1rem;
+    }
+ }
+ @media (max-width: 1440px) and (min-width: 1370px){
+    .opções{
+        background-color: #1A2036;
+        height: 17rem;
+        width: 5rem;
+        display: grid;
+        position: absolute;
+        align-items: center;
+        left: 22%;
+        top: 32%;
+        grid-template-rows: 4rem 4rem 4rem 4rem;
+        padding: 1rem;
+        border-radius: 20px;
+        padding-top: 4rem;
+        padding-bottom: 8rem;
+        margin-bottom: 1rem;
+    }
+ }
+ @media (max-width: 1600px) and (min-width: 1450px){
+    .opções{
+        background-color: #1A2036;
+        height: 17rem;
+        width: 5rem;
+        display: grid;
+        position: absolute;
+        align-items: center;
+        left: 25%;
+        top: 32%;
+        grid-template-rows: 4rem 4rem 4rem 4rem;
+        padding: 1rem;
+        border-radius: 20px;
+        padding-top: 4rem;
+        padding-bottom: 8rem;
+        margin-bottom: 1rem;
+    }
+ }
+ @media (max-width: 1920px) and (min-width: 1610px){
+    .opções{
+        background-color: #1A2036;
+        height: 17rem;
+        width: 5rem;
+        display: grid;
+        position: absolute;
+        align-items: center;
+        left: 30%;
+        top: 32%;
+        grid-template-rows: 4rem 4rem 4rem 4rem;
+        padding: 1rem;
+        border-radius: 20px;
+        padding-top: 4rem;
+        padding-bottom: 8rem;
+        margin-bottom: 1rem;
+    }
+ }
