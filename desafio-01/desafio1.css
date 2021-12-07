@@ -120,3 +120,24 @@ body{
     position: relative;
     top: 18%;
 }
+.opções{
+    background-color: #1A2036;
+    height: 18rem;
+    width: 5rem;
+    display: grid;
+    position: absolute;
+    align-items: center;
+    left: 21.5%;
+    top: 14%;
+    grid-template-rows: 4rem 4rem 4rem 4rem;
+    padding: 1rem;
+    border-radius: 20px;
+    padding-top: 4rem;
+    padding-bottom: 8rem;
+    margin-bottom: 1rem;
+}
+.pos-opções-img{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6rem;
+}
