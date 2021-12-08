@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+body{
+    background-color: #1A2036;
+}
+.position{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    align-items: center;
+}
+.bloco-principal{
+    background-color: #252B42;
+    border-radius: 15px;
+    width: 52rem;
+    height: 35rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.position-parte1{
+    display: inline-grid;
+    width: 100%;
+    grid-template-columns: 10rem 10rem;
+    gap: 24rem;
+    align-items: center;
+    left: 20%;
+    position: relative;
+    top: 11%;
+}
+.text-parte1{
+    font-family: Merriweather;
+    font-weight: bold;
+    font-size: 26px;
+    color: #B1B9D8;
+}
+.positon-icons-parte1{
+    display: flex;
+}
+.border-color{
+    border: solid;
+    width: 40%;
+    align-items: center;
+    display: flex;
+    border-radius: 10px;
+    border-color:#1A2036 ;
+}
+.color-icon-back{
+    background-color: #1A2036;
+}
+.postion-grid{
+    margin: 6.5rem;
+    left: 7.5%;
+    position: relative;
+}
+.position-parte2{
+    display: grid;
+    grid-template-columns: 10rem 10rem 10rem 10rem;
+    grid-template-rows: 11rem 11rem;
+    row-gap: 1.5rem;
+}
+.card-vazio{
+    width: 8.25rem;
+    height: 10.25rem;
+    background-color: #2E3650;
+    border-radius: 15px;
+}
+.card-completo{
+    width: 8.25rem;
+    height: 10.25rem;
+    background-color: #1A2036;
+    border-radius: 15px;
+    
+}
+.img-parte2-card-vazio{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 35%;
+    background-color: #1A2036;
+    border-radius: 27px;
+    padding: 0.5rem;
+}
+.img-parte2-card-completo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 15%;
+    background-color: #1A2036;
+}
+.text-card-vazio{
+    font-family: IBM Plex Sans;
+    font-weight:medium;
+    font-size: 14px;
+    color:#8795C5 ;
+    text-align: center;
+    position: relative;
+    top: 38%;
+}
+.text-card-completo{
+    font-family: IBM Plex Sans;
+    font-weight:medium;
+    font-size: 14px;
+    color:#8795C5 ;
+    text-align: center;
+    position: relative;
+    top: 20%;
+}
+.titulo-card-completo{
+    font-family: Merriweather;
+    font-weight:bold;
+    font-size: 18px;
+    color:#B1B9D8 ;
+    text-align: center;
+    position: relative;
+    top: 18%;
+}
+.opções{
+    background-color: #1A2036;
+    height: 18rem;
+    width: 5rem;
+    display: grid;
+    position: absolute;
+    align-items: center;
+    left: 21.5%;
+    top: 14%;
+    grid-template-rows: 4rem 4rem 4rem 4rem;
+    padding: 1rem;
+    border-radius: 20px;
+    padding-top: 4rem;
+    padding-bottom: 8rem;
+    margin-bottom: 1rem;
+}
+.pos-opções-img{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6rem;
+}
+@media (max-width: 801px) {
+    .opções{
+        background-color: #1A2036;
+        height: 16rem;
+        width: 5rem;
+        display: grid;
+        position: absolute;
+        align-items: center;
+        left: 1%;
+        top: 5%;
+        grid-template-rows: 4rem 4rem 4rem 4rem;
+        padding: 1rem;
+        border-radius: 20px;
+        padding-top: 4rem;
+        padding-bottom: 8rem;
+        margin-bottom: 1rem;
+    }
+    .position-parte2{
+        display: grid;
+        grid-template-columns: 8rem 8rem 8rem 8rem;
+        grid-template-rows: 11rem 11rem;
+        row-gap: 1.5rem;
+    }
+    .card-vazio{
+        width: 7rem;
+        height: 10.25rem;
+        background-color: #2E3650;
+        border-radius: 15px;
+    }
+    .card-completo{
+        width: 7rem;
+        height: 10.25rem;
+        background-color: #1A2036;
+        border-radius: 15px;
+        
+    }
+    .position-parte1{
+        display: inline-grid;
+        width: 100%;
+        grid-template-columns: 10rem 10rem;
+        gap: 17.25rem;
+        align-items: center;
+        left: 20%;
+        position: relative;
+        top: 11%;
+    }
+ }
+ @media (max-width: 1024px) and (min-width: 801px){
+    .opções{
+        background-color: #1A2036;
+        height: 17rem;
+        width: 5rem;
+        display: grid;
+        position: absolute;
+        align-items: center;
+        left: 8%;
+        top: 15%;
+        grid-template-rows: 4rem 4rem 4rem 4rem;
+        padding: 1rem;
+        border-radius: 20px;
+        padding-top: 4rem;
+        padding-bottom: 8rem;
+        margin-bottom: 1rem;
+    }
+ }
+ @media (max-width: 1366px) and (min-width: 1361px){
+    .opções{
+        background-color: #1A2036;
+        height: 17rem;
+        width: 5rem;
+        display: grid;
+        position: absolute;
+        align-items: center;
+        left: 22%;
+        top: 32%;
+        grid-template-rows: 4rem 4rem 4rem 4rem;
+        padding: 1rem;
+        border-radius: 20px;
+        padding-top: 4rem;
+        padding-bottom: 8rem;
+        margin-bottom: 1rem;
+    }
+ }
+ @media (max-width: 1440px) and (min-width: 1370px){
+    .opções{
+        background-color: #1A2036;
+        height: 17rem;
+        width: 5rem;
+        display: grid;
+        position: absolute;
+        align-items: center;
+        left: 22%;
+        top: 32%;
+        grid-template-rows: 4rem 4rem 4rem 4rem;
+        padding: 1rem;
+        border-radius: 20px;
+        padding-top: 4rem;
+        padding-bottom: 8rem;
+        margin-bottom: 1rem;
+    }
+ }
+ @media (max-width: 1600px) and (min-width: 1450px){
+    .opções{
+        background-color: #1A2036;
+        height: 17rem;
+        width: 5rem;
+        display: grid;
+        position: absolute;
+        align-items: center;
+        left: 25%;
+        top: 32%;
+        grid-template-rows: 4rem 4rem 4rem 4rem;
+        padding: 1rem;
+        border-radius: 20px;
+        padding-top: 4rem;
+        padding-bottom: 8rem;
+        margin-bottom: 1rem;
+    }
+ }
+ @media (max-width: 1920px) and (min-width: 1610px){
+    .opções{
+        background-color: #1A2036;
+        height: 17rem;
+        width: 5rem;
+        display: grid;
+        position: absolute;
+        align-items: center;
+        left: 30%;
+        top: 32%;
+        grid-template-rows: 4rem 4rem 4rem 4rem;
+        padding: 1rem;
+        border-radius: 20px;
+        padding-top: 4rem;
+        padding-bottom: 8rem;
+        margin-bottom: 1rem;
+    }
+ }
